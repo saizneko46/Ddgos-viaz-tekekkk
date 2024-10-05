@@ -20,8 +20,8 @@ function getRuntime(startTime) {
     const seconds = Math.floor(uptime % 60);
     return `${hours} Jam ${minutes} Menit ${seconds} Detik`;
 }
-const nama = 'GalaxyAndro';
-const author = 'BagazzModz';
+const nama = 'law';
+const author = 'dqr';
 // Informasi waktu mulai bot
 const startTime = Date.now();
 //▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰//
@@ -34,7 +34,7 @@ bot.onText(/\/start/, (msg) => {
 
 \`\`\`- Uptime: ${getRuntime(startTime)}\`\`\`
 \`\`\`- Bot Name: ${settings.botName}\`\`\`
-\`\`\`- Version: 1.0\`\`\`
+\`\`\`- Version: 1.9\`\`\`
 ┗❐
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 \`DDos Menu\`
@@ -49,7 +49,7 @@ bot.onText(/\/start/, (msg) => {
 reply_markup: {
         inline_keyboard: [
           [
-            { text: 'SALURAN WA', url: 'https://whatsapp.com/channel/0029VagDZiC84OmIm8JJno0z' }, { text: 'SUBSCRIBE', url: 'https://youtube.com/@bagazzmodz17' }
+            { text: 'SALURAN WA', url: 'https://whatsapp.com/channel/00294OmIm8JJno0z' }, { text: 'SUBSCRIBE', url: 'https://youtube.com/@bagazzmodz17' }
           ]
         ]
       }
@@ -59,11 +59,11 @@ bot.onText(/\/menu/, (msg) => {
     const chatId = msg.chat.id;
     const startTime = Date.now();
     bot.sendMessage(chatId, `
-┏❐ \`\`\`PermenMisc Telegram\`\`\` ❐
+┏❐ \`\`\`ddos Telegram\`\`\` ❐
 
 \`\`\`- Uptime: ${getRuntime(startTime)}\`\`\`
 \`\`\`- Bot Name: ${settings.botName}\`\`\`
-\`\`\`- Version: 1.0\`\`\`
+\`\`\`- Version: 1.9\`\`\`
 ┗❐
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 \`DDos Menu\`
@@ -78,7 +78,7 @@ bot.onText(/\/menu/, (msg) => {
 reply_markup: {
         inline_keyboard: [
           [
-            { text: 'SALURAN WA', url: 'https://whatsapp.com/channel/0029VagDZiC84OmIm8JJno0z' }, { text: 'SUBSCRIBE', url: 'https://youtube.com/@bagazzmodz17' }
+            { text: 'SALURAN WA', url: 'https://whatsapp.com/channel/0ZiC84OmIm8JJno0z' }, { text: 'SUBSCRIBE', url: 'https://youtube.com/@bagazzmodz17' }
           ]
         ]
       }
@@ -102,7 +102,7 @@ bot.onText(/\/brow (.+)/, async (msg, match) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'HUBUNGI ADMIN', url: 'https://t.me/BagazzModz' }
+            { text: 'HUBUNGI ADMIN', url: 'https://t.me/dqr' }
           ]
         ]
       }
@@ -135,7 +135,7 @@ bot.onText(/\/https (.+)/, async (msg, match) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'HUBUNGI ADMIN', url: 'https://t.me/BagazzModz' }
+            { text: 'HUBUNGI ADMIN', url: 'https://t.me/dqr' }
           ]
         ]
       }
@@ -168,7 +168,7 @@ bot.onText(/\/kill (.+)/, async (msg, match) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'HUBUNGI ADMIN', url: 'https://t.me/BagazzModz' }
+            { text: 'HUBUNGI ADMIN', url: 'https://t.me/dqr' }
           ]
         ]
       }
@@ -201,7 +201,7 @@ bot.onText(/\/mix (.+)/, async (msg, match) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'HUBUNGI ADMIN', url: 'https://t.me/BagazzModz' }
+            { text: 'HUBUNGI ADMIN', url: 'https://t.me/dqr' }
           ]
         ]
       }
@@ -234,7 +234,7 @@ bot.onText(/\/ninja (.+)/, async (msg, match) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'HUBUNGI ADMIN', url: 'https://t.me/BagazzModz' }
+            { text: 'HUBUNGI ADMIN', url: 'https://t.me/dqr' }
           ]
         ]
       }
@@ -267,7 +267,7 @@ bot.onText(/\/tls (.+)/, async (msg, match) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'HUBUNGI ADMIN', url: 'https://t.me/BagazzModz' }
+            { text: 'HUBUNGI ADMIN', url: 'https://t.me/dqr' }
           ]
         ]
       }
